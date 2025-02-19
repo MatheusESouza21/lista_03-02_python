@@ -4,9 +4,9 @@
 preço = float(input('Qual o preço do produto? '))
 if preço <= 100:
     pdevenda = preço + preço * 0.45
-    print('O preço de venda é {}'.format(pdevenda))
+    print('O preço de venda é {:1f}'.format(pdevenda))
 elif preço > 100:
     pdevenda = preço + preço * 0.35
-    print('O preço de venda é {}'.format(pdevenda))
+    print('O preço de venda é {:1f}'.format(pdevenda))
 
 print('Matheus Eduardo')
